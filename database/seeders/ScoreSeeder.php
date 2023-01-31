@@ -17,6 +17,7 @@ class ScoreSeeder extends Seeder
     {
         DB::table('scores')->insert([
             ['name' => 'Дырка от бублика', 'article' => '3005-13', 'quantity' => 3],
+            ['name' => 'Новый товар', 'article' => '3005-35', 'quantity' => 6],
         ]);
     }
 }
