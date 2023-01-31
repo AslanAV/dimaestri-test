@@ -55,7 +55,9 @@ http://localhost/api/insales/scores/update
 
 [Тесты API](https://github.com/AslanAV/dimaestri-test/blob/main/tests/Feature/OrderWithScoreTest.php)
 
-
+Задание №8 решено средствами Laravel 
+планировщик - https://laravel.com/docs/9.x/scheduling#defining-schedules
+метод `update` Eloquent - https://laravel.com/docs/9.x/eloquent#mass-updates
 
 ## Setup project local
 
