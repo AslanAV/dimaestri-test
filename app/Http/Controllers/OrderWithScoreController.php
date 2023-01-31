@@ -20,8 +20,8 @@ class OrderWithScoreController extends Controller
         ]);
         abort_if($validator->fails(), 404);
 
-        $scoreToOrder = CountScoreFromOrder::getScoreFromOrder($request->items);
         $data = $validator->validated();
+        $scoreToOrder = CountScoreFromOrder::getScoreFromOrder($data['items']);
         $orderWithScore = OrderWithScore::updateOrCreate(
             ['order_id' => $data['id']],
             [

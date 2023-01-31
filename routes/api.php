@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('insales/scores')->group(fn () => Route::post('/update', [OrderWithScoreController::class, 'update']));
+Route::prefix('insales/scores')->group(fn () => Route::post('/update', [OrderWithScoreController::class, 'update'])->name('api'));
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
