@@ -55,7 +55,7 @@ http://localhost/api/insales/scores/update
 
 [Тесты API](https://github.com/AslanAV/dimaestri-test/blob/main/tests/Feature/OrderWithScoreTest.php)
 
-Задание №8 решено средствами Laravel 
+Задание №8 исполняемым файлом [TaskShedule](https://github.com/AslanAV/dimaestri-test/blob/main/TaskShedule) и решено средствами Laravel:
 - [код планировщика](https://github.com/AslanAV/dimaestri-test/blob/bf0b2e87e07a1ed5cbdc68648a57f26ed754166f/app/Console/Kernel.php#L19)
 - планировщик - https://laravel.com/docs/9.x/scheduling#defining-schedules
 - метод `update` Eloquent - https://laravel.com/docs/9.x/eloquent#mass-updates
