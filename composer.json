@@ -9,9 +9,11 @@
         "guzzlehttp/guzzle": "^7.5.0",
         "laravel/framework": "^9.49.0",
         "laravel/sanctum": "^3.2.1",
-        "laravel/tinker": "^2.8.0"
+        "laravel/tinker": "^2.8.0",
+        "ext-mysqli": "*"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "barryvdh/laravel-ide-helper": "^2.12.3",
         "fakerphp/faker": "^1.21.0",
         "laravel/pint": "^1.4.0",

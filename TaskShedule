@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+$conn = mysqli_connect("127.0.0.1", "sail", "password", "dimaestri");
+if($conn->connect_error){
+    die("Ошибка: " . $conn->connect_error);
+}
+
+$sql = 'UPDATE order_with_scores SET status = "shipping" WHERE status = "accepted"';
+$result = mysqli_query($conn, $sql);
+if ($result == false) {
+    print("Произошла ошибка при выполнении запроса");
+}
+print("При выполнении запроса ошибок не произошло!\n");
+
